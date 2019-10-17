@@ -1,0 +1,1797 @@
+{
+  "title": "Конфигурация HLDS",
+  "variables":
+  [
+    {
+      "command": "_tutor_bomb_viewable_check_interval",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0.500",
+	  "min": "0"
+    },
+    {
+      "command": "_tutor_debug_level",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0",
+	  "min": "0"
+    },
+    {
+      "command": "_tutor_examine_time",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0.500",
+	  "min": "0"
+    },
+    {
+      "command": "_tutor_hint_interval_time",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "10",
+	  "min": "0"
+    },
+    {
+      "command": "_tutor_look_angle",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "10",
+	  "min": "0"
+    },
+    {
+      "command": "_tutor_look_distance",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "200",
+	  "min": "0"
+    },
+    {
+      "command": "_tutor_message_character_display_time_coefficient",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0.070",
+	  "min": "0"
+    },
+    {
+      "command": "_tutor_message_minimum_display_time",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "1",
+	  "min": "0"
+    },
+    {
+      "command": "_tutor_message_repeats",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "5",
+	  "min": "0"
+    },
+    {
+      "command": "_tutor_view_distance",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "1000",
+	  "min": "0"
+    },
+    {
+      "command": "allow_spectators",
+      "type": "",
+      "label": "Позволяет игроку присоединиться в качестве зрителя",
+      "description": "",
+      "default": "1",
+	  "min": "0"
+    },
+    {
+      "command": "bannedcfgfile",
+      "type": "",
+      "label": "Файл для постоянных IP-банов",
+      "description": "Указать название файла",
+      "default": "0"
+    },
+    {
+      "command": "brightness",
+      "type": "",
+      "label": "Регулировка яркости",
+      "description": "",
+      "default": "1",
+	  "min": "0",
+	  "max": "2"
+    },
+    {
+      "command": "chase_active",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "chase_back",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "100"
+    },
+    {
+      "command": "chase_right",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "chase_up",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "16"
+    },
+    {
+      "command": "clientport",
+      "type": "",
+      "label": "Устанавливает порт, через который клиент подключается к серверу.",
+      "description": "",
+      "default": "27005"
+    },
+    {
+      "command": "clockwindow",
+      "type": "",
+      "label": "Борьба со спидхаком",
+      "description": "Негативно скажется на игроках со слабым интернетом. Не блокирует спидхак, а ухудшает его эффект",
+      "default": "0.500"
+    },
+    {
+      "command": "con_color",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "255"
+    },
+    {
+      "command": "con_fastmode",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "1"
+    },
+    {
+      "command": "con_mono",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "con_notifytime",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "4"
+    },
+    {
+      "command": "con_shifttoggleconsole",
+      "type": "",
+      "label": "Включает открытие консоли при зажатом shift",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "console",
+      "type": "",
+      "label": "Позволяет открыть консоль",
+      "description": "Не актуально в Steam. Использовалось в Won",
+      "default": "1"
+    },
+    {
+      "command": "coop",
+      "type": "",
+      "label": "Включает кооператив в Quake",
+      "description": "Не работает в HL и CS, т.к. там нет кооператива",
+      "default": "0"
+    },
+    {
+      "command": "crosshair",
+      "type": "",
+      "label": "Включает прицел в режиме наблюдения",
+      "description": "",
+      "default": "1"
+    },
+    {
+      "command": "deathmatch",
+      "type": "",
+      "label": "Включает режим deathmatch",
+      "description": "",
+      "default": "1"
+    },
+    {
+      "command": "decalfrequency",
+      "type": "",
+      "label": "Частота нанесения логотипов",
+      "description": "Значение 0 убирает задержку",
+      "default": "30"
+    },
+    {
+      "command": "developer",
+      "type": "",
+      "label": "Включает режим разработчика",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "direct",
+      "type": "",
+      "label": "Задает уровень затененонсти моделей",
+      "description": "Чем меньше значение, тем ярче выглядит модель",
+      "default": "0.900"
+    },
+    {
+      "command": "displaysoundlist",
+      "type": "",
+      "label": "Включает отображение кол-ва загруженных звуков",
+      "description": "Работает только при developer 2",
+      "default": "0"
+    },
+    {
+      "command": "edgefriction",
+      "type": "",
+      "label": "Задает эффект трения между игроком и объектами на карте",
+      "description": "",
+      "default": "2"
+    },
+    {
+      "command": "fakelag",
+      "type": "",
+      "label": "Имитирует задержки в игре",
+      "description": "Чем больше значение, тем больше задержка. Необходимо включить sv_cheats.",
+      "default": "0"
+    },
+    {
+      "command": "fakeloss",
+      "type": "",
+      "label": "Имитирует потери пакетов в игре",
+      "description": "Чем больше значение, тем больше потери. Необходимо включить sv_cheats.",
+      "default": "0"
+    },
+    {
+      "command": "fps_max",
+      "type": "",
+      "label": "Ограничивает кол-во кадров в секунду",
+      "description": "",
+      "default": "100"
+    },
+    {
+      "command": "fps_override",
+      "type": "",
+      "label": "Выключает ограничение fps в 100 кадров",
+      "description": "Используется в паре с fps_max",
+      "default": "0"
+    },
+    {
+      "command": "gamma",
+      "type": "",
+      "label": "Регулировка гаммы",
+      "description": "",
+      "default": "2.500"
+    },
+    {
+      "command": "host_framerate",
+      "type": "",
+      "label": "",
+      "description": "Эта функция масштабирует часы, но только в одиночном режиме или во время воспроизведения demo (может использоваться для перемотки вперед).",
+      "default": "0"
+    },
+    {
+      "command": "host_killtime",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает временную задержку перед убийством сервера.",
+      "default": "0.0"
+    },
+    {
+      "command": "host_limitlocal",
+      "type": "",
+      "label": "",
+      "description": "Применить cl_cmdrate и cl_updaterate для обратного соедининения",
+      "default": "0"
+    },
+    {
+      "command": "host_profile",
+      "type": "",
+      "label": "",
+      "description": "Отображает количество подключенных клиентов и их сетевую задержку.",
+      "default": "0"
+    },
+    {
+      "command": "host_speeds",
+      "type": "",
+      "label": "",
+      "description": "Отображает FPS хоста, задержку сети, скорость передачи, скорость рендеринга и количество объектов на карте.",
+      "default": "0"
+    },
+    {
+      "command": "hostage_debug",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "hostage_stop",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "HostMap",
+      "type": "",
+      "label": "",
+      "description": "При изменении карты с помощью команды "map" этот квар автоматически устанавливается на имя карты. Для мультиплеера это задается только при запуске сервера, так как первая карта запускается командой "map", а при смене карты используется "changelevel".",
+      "default": "de_dust2"
+    },
+    {
+      "command": "hostname",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает имя сервера.",
+      "default": "Counter-Strike "1.6" Server"
+    },
+    {
+      "command": "hostport",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает порт для использования вашим сервером. Этот CVar имеет тот же эффект, что и CVar "порт", за исключением того, что если значение "hostport" не равно "0", он используется вместо "port".",
+      "default": "27016"
+    },
+    {
+      "command": "hpk_maxsize",
+      "type": "",
+      "label": "",
+      "description": "Определяет максимальный размер файла custom.hpk в папке cstrike, Custom.hpk используется для хранения логотипов других игроков. Значение в мегабайтах, значение 0 означает отсутствие максимального размера.",
+      "default": "4"
+    },
+    {
+      "command": "humans_join_team",
+      "type": "",
+      "label": "",
+      "description": "Используется для ограничения выбора команды. Установите значение "any", чтобы разрешить все команды (по умолчанию), "ct", чтобы разрешить только Контртеррористам, и "t", чтобы разрешить только Террористам.",
+      "default": any
+    },
+    {
+      "command": "ip",
+      "type": "",
+      "label": "",
+      "description": "Если соединение с сервером установить не удается, то эту переменную необходимо использовать в командной строке сервера, указывающей ip сервера.",
+      "default": localhost
+    },
+    {
+      "command": "ip_clientport",
+      "type": "",
+      "label": "",
+      "description": "установить клиентский порт для TCP/IPLAN игры",
+      "default": "0"
+    },
+    {
+      "command": "ip_hostport",
+      "type": "",
+      "label": "",
+      "description": "установить хост порт для TCP/IPLAN игры",
+      "default": "0"
+    },
+    {
+      "command": "ipx_clientport",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "ipx_hostport",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "lambert",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "1.500"
+    },
+    {
+      "command": "lightgamma",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "2.500"
+    },
+    {
+      "command": "logsdir",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "lservercfgfile",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает конфигурационный файл, загружаемый при запуске локального сервера.",
+      "default": "listenserver.cfg"
+    },
+    {
+      "command": "mapchangecfgfile",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает конфигурационный файл, загружаемый при каждом изменении карты.",
+      "default": "0"
+    },
+    {
+      "command": "mapcyclefile",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает файл, который будет использоваться для цикла карт.",
+      "default": "mapcycle.txt"
+    },
+    {
+      "command": "max_queries_sec",
+      "type": "",
+      "label": "",
+      "description": "Это часть кода, ограничивающая скорость передачи данных запросами Out-Of-Band (т.е. игроки, информация). Определяет максимальное количество запросов в секунду на пользователя (усредненное по max_queries_window).",
+      "default": "3.0"
+    },
+    {
+      "command": "max_queries_sec_global",
+      "type": "",
+      "label": "",
+      "description": "Это часть кода, ограничивающая скорость передачи данных запросами Out-Of-Band (т.е. игроки, информация). Он определяет максимальное количество запросов в секунду для всех запросов.",
+      "default": "30"
+    },
+    {
+      "command": "max_queries_window",
+      "type": "",
+      "label": "",
+      "description": "Это часть кода, ограничивающая скорость передачи данных запросами Out-Of-Band (т.е. игроки, информация). Он определяет промежуток времени для усреднения скорости запросов.",
+      "default": "60"
+    },
+    {
+      "command": "motdfile",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает файл для использования в качестве сообщения дня (экран приветствия).",
+      "default": "motd.txt"
+    },
+    {
+      "command": "mp_allowmonsters",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "mp_autokick",
+      "type": "",
+      "label": "",
+      "description": "Включите автоматический kick за убийство товарищей по команде и простоя игроков.",
+      "default": "1"
+    },
+    {
+      "command": "mp_autokick_timeout",
+      "type": "",
+      "label": "",
+      "description": "Это максимальное время, которое игрок должен находиться в состоянии простоя перед kick.",
+      "default": -1
+    },
+    {
+      "command": "mp_autoteambalance",
+      "type": "",
+      "label": "",
+      "description": "Автоматическая балансировка команд. 0 - выключено. 1 - после следующего раунда. 2 - на следующий раунд",
+      "default": "1"
+    },
+    {
+      "command": "mp_buytime",
+      "type": "",
+      "label": "",
+      "description": "Укажите желаемое количество времени для покупки в каждом раунде (в минутах). -1 - означает отсутствие временных ограничений. 0 - отключить покупку",
+      "default": "0.25"
+    },
+    {
+      "command": "mp_c4timer",
+      "type": "",
+      "label": "",
+      "description": "Длительность таймера C4. Минимум "15", максимум 90.",
+      "default": "45"
+    },
+    {
+      "command": "mp_chattime",
+      "type": "",
+      "label": "",
+      "description": "Количество времени в секундах, в течение которого игроки могут общаться после окончания игры.",
+      "default": "10"
+    },
+    {
+      "command": "mp_consistency",
+      "type": "",
+      "label": "",
+      "description": "Это позволяет убедиться, что клиент не изменил свои модели или звуки для того, чтобы дать ему несправедливое преимущество. Для некоторых моделей, это только размер, чтобы увидеть, если он не превышает хитбоксов. Но это не проверяет все модели/звуки.... Какой-то пригодный для эксплуатации, как дымовой спрайт.",
+      "default": "1"
+    },
+    {
+      "command": "mp_fadetoblack",
+      "type": "",
+      "label": "",
+      "description": "Когда установлено значение "1", экран игрока исчезает до конца раунда, когда он умирает (худ по-прежнему работает нормально, чтобы игрок мог общаться и видеть результаты и т.д.) Переопределяет mp_forcechasecam.",
+      "default": "0"
+    },
+    {
+      "command": "mp_flashlight",
+      "type": "",
+      "label": "",
+      "description": "Установите на "1", чтобы активировать использование фонарика, "0", чтобы деактивировать.",
+      "default": "0"
+    },
+    {
+      "command": "mp_footsteps",
+      "type": "",
+      "label": "",
+      "description": "Установите значение "1", чтобы включить звук шагов, "0", чтобы отключить.",
+      "default": "1"
+    },
+    {
+      "command": "mp_forcecamera",
+      "type": "",
+      "label": "",
+      "description": "Этот квар был добавлен в CS "1.4" и, похоже, точно такой же, как и mp_forcechasecam. Если для mp_forcecamera и mp_forcechasecam установлено другое значение, чем "0", то mp_forcecam игнорируется, а значение mp_forcechasecam будет использоваться вместо него. 0 Вы можете наблюдать за каждым. 1 Вы можете наблюдать только за товарищами по команде + Нет свободного взгляда 2 Разрешен только режим первого лица. 3 Вы можете наблюдать только товарищей по команде (работает Free Look)",
+      "default": "0"
+    },
+    {
+      "command": "mp_forcechasecam",
+      "type": "",
+      "label": "",
+      "description": "Похоже, что этот квар точно такой же, как и mp_forcecamera. Если для mp_forcecamera и mp_forcechasecam установлено другое значение, чем "0", то mp_forcecam игнорируется, а значение mp_forcechasecam будет использоваться вместо него. 0 Вы можете наблюдать за каждым. 1 Вы можете наблюдать только за товарищами по команде + Нет свободного взгляда 2 Разрешен только режим первого лица. 3 Вы можете наблюдать только товарищей по команде (работает Free Look)",
+      "default": "0"
+    },
+    {
+      "command": "mp_fragsleft",
+      "type": "",
+      "label": "",
+      "description": "Количество оставшихся убийств, если вы задали mp_fraglimit. Вы просто вводите mp_fragsleft в консоли сервера, и он показывает количество оставшихся убийств в зависимости от mp_fraglimit.",
+      "default": "0"
+    },
+    {
+      "command": "mp_freezetime",
+      "type": "",
+      "label": "",
+      "description": "Длина в секундах периода заморозки в начале раунда. Установите на "0", чтобы отключить.",
+      "default": "6"
+    },
+    {
+      "command": "mp_friendlyfire",
+      "type": "",
+      "label": "",
+      "description": "Установлено на "1", чтобы включить огонь по товарищам, "0", чтобы отключить.",
+      "default": "0"
+    },
+    {
+      "command": "mp_ghostfrequency",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0.100"
+    },
+    {
+      "command": "mp_hostagepenalty",
+      "type": "",
+      "label": "",
+      "description": "Максимальное количество заложников, которых вы можете убить до того, как сервер kick вас... установка этого значения на 0 выключит эту команду.",
+      "default": "13"
+    },
+    {
+      "command": "mp_kickpercent",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает процент товарищей по команде, необходимый для того, чтобы проголосовать против игрока.",
+      "default": "0.660"
+    },
+    {
+      "command": "mp_limitteams",
+      "type": "",
+      "label": "",
+      "description": "Максимальное количество игроков, которое одна команда может иметь над другой. Чтобы полностью отключить ограничение команды, установите значение 0.",
+      "default": "2"
+    },
+    {
+      "command": "mp_logdetail",
+      "type": "",
+      "label": "",
+      "description": "Побитовый квар для установки уровня детализации регистрации атак "mp_logdetail 0" "Log no attacks". "mp_logdetail 1" - Ведение журнала вражеских атак. "mp_logdetail 2" - Ведение журнала атак товарищей по команде. "mp_logdetail 3" - Ведение журнала атак врага И товарищей по команде",
+      "default": "0"
+    },
+    {
+      "command": "mp_logecho",
+      "type": "",
+      "label": "",
+      "description": "Если разрешено, сообщения журнала сервера отображаются в консоли сервера.",
+      "default": "1"
+    },
+    {
+      "command": "mp_logfile",
+      "type": "",
+      "label": "",
+      "description": "Включает запись логов консоли сервера в файл в директории /logs",
+      "default": "1"
+    },
+    {
+      "command": "mp_logmessages",
+      "type": "",
+      "label": "",
+      "description": "Используется администраторами серверов для вывода сообщений чата в файлы журналов.",
+      "default": "1"
+    },
+    {
+      "command": "mp_mapvoteratio",
+      "type": "",
+      "label": "",
+      "description": "Установите соотношение игроков, необходимое для голосования на одной и той же карте, прежде чем карта изменится. По умолчанию установлено значение "0","66", что означает, что 66% игроков на сервере должны голосовать на одной и той же карте, чтобы сервер мог перейти на эту карту.",
+      "default": "0.66"
+    },
+    {
+      "command": "mp_maxrounds",
+      "type": "",
+      "label": "",
+      "description": "Максимальное количество раундов, которое должно быть отыграно на карте, оставьте на "0", чтобы применялся mp_timelimit.",
+      "default": "0"
+    },
+    {
+      "command": "mp_mirrordamage",
+      "type": "",
+      "label": "",
+      "description": "Этот CVar не имеет никакого эффекта. Он в CS с первых бета-версий. Этого нет даже в части руководства CS с кварами CS Specific. Это, вероятно, будет функцией, потому что, когда вы атакуете товарищей по команде, она отражает повреждения на вас, и они не получают никакого ущерба. Оригинальные создатели CS, наверное, не доделали его код и не забыли об этом.",
+      "default": "0"
+    },
+    {
+      "command": "mp_playerid",
+      "type": "",
+      "label": "",
+      "description": "Служит для переключения информации, которую видят игроки в строке состояния. 0 - все: игроки видят все имена, перечисленные в строке состояния (с соответствующими цветами). 1 - только команда: игроки видят имена своих товарищей по команде и заложников только в строке состояния. 2 - выключено: игроки не видят никаких имен в строке состояния (включая заложников).",
+      "default": "0"
+    },
+    {
+      "command": "mp_roundtime",
+      "type": "",
+      "label": "",
+      "description": "Минимальное время раунда составляет 1 мин. Максимальное время раунда составляет 9 мин. Поддержка не полных минут ("1",5 - 90 секунд).",
+      "default": "5"
+    },
+    {
+      "command": "mp_scoreboard_showhealth",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "3"
+    },
+    {
+      "command": "mp_scoreboard_showmoney",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "3"
+    },
+    {
+      "command": "mp_startmoney",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает кол-во денег в начале игры",
+      "default": "800"
+    },
+    {
+      "command": "mp_timeleft",
+      "type": "",
+      "label": "",
+      "description": "mp_timeleft - это количество времени, оставшееся до изменения карты, если вы установили mp_timelimit. Вы просто вводите mp_timeleft в консоли сервера, и он показывает количество оставшегося времени в зависимости от mp_timelimit. ПРИМЕЧАНИЕ: mp_timeleft работает только в режиме Half-Life. Это бесполезно в CS из-за консольной команды клиента "timeleft", которая делает то же самое.",
+      "default": "0"
+    },
+    {
+      "command": "mp_timelimit",
+      "type": "",
+      "label": "",
+      "description": "Период между сменой карты.",
+      "default": "20"
+    },
+    {
+      "command": "mp_tkpunish",
+      "type": "",
+      "label": "",
+      "description": "Если установлено значение "1", убийца товарищей будет автоматически убит в следующем раунде.",
+      "default": "0"
+    },
+    {
+      "command": "mp_windifference",
+      "type": "",
+      "label": "",
+      "description": "Это используется в CS для определения дельты между победами Т и КТ для применения логики победы.",
+      "default": "1"
+    },
+    {
+      "command": "mp_winlimit",
+      "type": "",
+      "label": "",
+      "description": "Будет смена карты после того, как одна команда достигнет лимита побед.",
+      "default": "0"
+    },
+    {
+      "command": "multicastport",
+      "type": "",
+      "label": "",
+      "description": "порт для зрителей HLTV",
+      "default": "27025"
+    },
+    {
+      "command": "net_address",
+      "type": "",
+      "label": "",
+      "description": "адрес сети",
+      "default": "0"
+    },
+    {
+      "command": "net_chokeloop",
+      "type": "",
+      "label": "",
+      "description": "Применяет пропускную способность к пакетным петлям.",
+      "default": "0"
+    },
+    {
+      "command": "net_drawslider",
+      "type": "",
+      "label": "",
+      "description": "Нарисует ползунок завершения во время входа.",
+      "default": "0"
+    },
+    {
+      "command": "net_graph",
+      "type": "",
+      "label": "",
+      "description": "Позволяет использовать net_graph. Он отображает информацию о ваших настройках, ping, fps и т.д. в зависимости от типа графика сети",
+      "default": "0"
+    },
+    {
+      "command": "net_graphpos",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает позицию net_graph. 0 = справа, 1 = в центре, 2 = слева.",
+      "default": "1"
+    },
+    {
+      "command": "net_graphwidth",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает ширину net_graph. Чем больше число, тем шире net_graph.",
+      "default": "150"
+    },
+    {
+      "command": "net_log",
+      "type": "",
+      "label": "",
+      "description": "Ведение журнала состояния сети",
+      "default": "0"
+    },
+    {
+      "command": "net_scale",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает количество байт на пиксел в net_graph.",
+      "default": "5"
+    },
+    {
+      "command": "net_showdrop",
+      "type": "",
+      "label": "",
+      "description": "Показывает сообщение в консоли при потери пакета. Это и для клиента, и для сервера.",
+      "default": "0"
+    },
+    {
+      "command": "net_showpackets",
+      "type": "",
+      "label": "",
+      "description": "Показывает входящие/исходящие пакеты. Это и для клиента, и для сервера.",
+      "default": "0"
+    },
+    {
+      "command": "pausable",
+      "type": "",
+      "label": "",
+      "description": "Разрешить или запретить игрокам приостанавливать игру с помощью команды паузы.",
+      "default": "0"
+    },
+    {
+      "command": "port",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает порт для использования вашим сервером.",
+      "default": "27015"
+    },
+    {
+      "command": "rcon_password",
+      "type": "",
+      "label": "",
+      "description": "Он устанавливает пароль rcon на сервере, чтобы администраторы могли использовать команды/квары администраторов. Администраторы также должны установить rcon_password в своей клиентской консоли, чтобы иметь возможность использовать команды администратора/cvars с командой rcon.",
+      "default": "0"
+    },
+    {
+      "command": "servercfgfile",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает файл конфигурации, загружаемый при запуске сервера. Только для выделенных серверов.",
+      "default": "server.cfg"	
+    },
+    {
+      "command": "sk_12mm_bullet1",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_12mm_bullet2",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_12mm_bullet3",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_9mm_bullet1",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_9mm_bullet2",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_9mm_bullet3",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_9mmAR_bullet1",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_9mmAR_bullet2",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_9mmAR_bullet3",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_battery1",
+      "type": "",
+      "label": "",
+      "description": "Сколько энергии дается на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_battery2",
+      "type": "",
+      "label": "",
+      "description": "Сколько энергии дается на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_battery3",
+      "type": "",
+      "label": "",
+      "description": "Сколько энергии дается на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_healthcharger1",
+      "type": "",
+      "label": "",
+      "description": "Сколько здоровья дается на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_healthcharger2",
+      "type": "",
+      "label": "",
+      "description": "Сколько здоровья дается на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_healthcharger3",
+      "type": "",
+      "label": "",
+      "description": "Сколько здоровья дается на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_healthkit1",
+      "type": "",
+      "label": "",
+      "description": "Сколько здоровья дается на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_healthkit2",
+      "type": "",
+      "label": "",
+      "description": "Сколько здоровья дается на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_healthkit3",
+      "type": "",
+      "label": "",
+      "description": "Сколько здоровья дается на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_357_bullet1",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_357_bullet2",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_357_bullet3",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_9mm_bullet1",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_9mm_bullet2",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_9mm_bullet3",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_9mmAR_bullet1",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_9mmAR_bullet2",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_9mmAR_bullet3",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_9mmAR_grenade1",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_9mmAR_grenade2",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_9mmAR_grenade3",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_buckshot1",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_buckshot2",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_buckshot3",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_rpg1",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_rpg2",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_plr_rpg3",
+      "type": "",
+      "label": "",
+      "description": "Сколько урона наносится оружием на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_scientist_heal1",
+      "type": "",
+      "label": "",
+      "description": "Сколько здоровья дается на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_scientist_heal2",
+      "type": "",
+      "label": "",
+      "description": "Сколько здоровья дается на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_scientist_heal3",
+      "type": "",
+      "label": "",
+      "description": "Сколько здоровья дается на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "sk_suitcharger1",
+      "type": "",
+      "label": "",
+      "description": "Сколько прочности костюма дается на уровне сложности 1",
+      "default": "0"
+    },
+    {
+      "command": "sk_suitcharger2",
+      "type": "",
+      "label": "",
+      "description": "Сколько прочности костюма дается на уровне сложности 2",
+      "default": "0"
+    },
+    {
+      "command": "sk_suitcharger3",
+      "type": "",
+      "label": "",
+      "description": "Сколько прочности костюма дается на уровне сложности 3",
+      "default": "0"
+    },
+    {
+      "command": "skill",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает уровень сложности в режиме одиночной  игры Half-Life (он устанавливается автоматически, когда вы выбираете уровень сложности в новом меню игры). 1 - Легко. 2 - Средний. 3 - Твердый",
+      "default": "1"
+    },
+    {
+      "command": "suitvolume",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает громкость звуков костюма HEV в режиме Half-Life.",
+      "default": "0.250"
+    },
+    {
+      "command": "sv_accelerate",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает скорость ускорения. заблокирован (только в CS), поэтому он автоматически переключается обратно на заводские настройки (5). Но в HL вы можете изменить его, и значение по умолчанию равно 10.",
+      "default": "5"
+    },
+    {
+      "command": "sv_aim",
+      "type": "",
+      "label": "",
+      "description": "Включает автоприцеливание (когда перекрестие находится рядом с врагом). Работает только в Half-Life.",
+      "default": "0"
+    },
+    {
+      "command": "sv_airaccelerate",
+      "type": "",
+      "label": "",
+      "description": "Он устанавливает скорость разгона в воздухе. Используйте 100 для карт Surf_.",
+      "default": "10"
+    },
+    {
+      "command": "sv_allow_dlfile",
+      "type": "",
+      "label": "",
+      "description": "Резрешает передачу файлов между серверов и клиентом",
+      "default": "1"
+    },
+    {
+      "command": "sv_allowdownload",
+      "type": "",
+      "label": "",
+      "description": "Позволяет серверу загружать на клиент любое содержимое (карты, спреи и т.д.).",
+      "default": "1"
+    },
+    {
+      "command": "sv_allowupload",
+      "type": "",
+      "label": "",
+      "description": "Позволяет клиентам отправлять на сервер свои лого (spray).",
+      "default": "1"
+    },
+    {
+      "command": "sv_alltalk",
+      "type": "",
+      "label": "",
+      "description": "Позволить мертвым игрокам общаться через голосовой чат с живыми игроками. Также позволяйте игрокам общаться с противоположной командой/зрителями.",
+      "default": "0"
+    },
+    {
+      "command": "sv_bounce",
+      "type": "",
+      "label": "",
+      "description": "Контролирует реакцию летящих снарядов, когда они попадают на склоны.",
+      "default": "1"
+    },
+    {
+      "command": "sv_cheats",
+      "type": "",
+      "label": "",
+      "description": "Эта команда позволяет использовать чит-квары, такие как импульс 101 (16000 бабла) или импульс 102 (кровь). Все квары, находящиеся под категорией " чит" в списке, работают только в том случае, если эта опция включена.",
+      "default": "0"
+    },
+    {
+      "command": "sv_clienttrace",
+      "type": "",
+      "label": "",
+      "description": "устанавливает ограничения игрока на столкновения (с мировыми объектами). Это не то же самое, что установка размера ящика (используется для попадания пуль). Это не может быть изменено в CS, это вынужденно 1. Значение может отличаться от других HL Mods. ("3.5" используется в МО и т.д.)....",
+      "default": "1"
+    },
+    {
+      "command": "sv_contact",
+      "type": "",
+      "label": "",
+      "description": "Используется для установки адреса электронной почты владельца сервера.",
+      "default": "0"
+    },
+    {
+      "command": "sv_downloadurl",
+      "type": "",
+      "label": "",
+      "description": "Установка этого CVAR позволит клиентам скачивать пользовательский контент через HTTP вместо того, чтобы получать содержимое с игрового сервера, намного быстрее. установить это значение на "" (пустая строка) для преобразования обратно в нормальные загрузки.",
+      "default": ""
+    },
+    {
+      "command": "sv_enableoldqueries",
+      "type": "",
+      "label": "",
+      "description": "Установка "sv_enableoldqueries" на 1 позволяет старым запросам (не вызов/ответ) работать (позволяет использовать старый протокол запросов HL1 Engine Master Server Query Protocol). Это должно быть оставлено выключенным, потому что браузеры веб-серверов и т.д... используют новые запросы к серверу.",
+      "default": "0"
+    },
+    {
+      "command": "sv_failuretime",
+      "type": "",
+      "label": "",
+      "description": "Отправить время пересчета ошибок при отправке пакетов",
+      "default": "0.500"
+    },
+    {
+      "command": "sv_filetransfercompression",
+      "type": "",
+      "label": "",
+      "description": "Позволяет серверу сжимать и отправлять сжатый контент клиенту.",
+      "default": "1"
+    },
+    {
+      "command": "sv_filetransfermaxsize",
+      "type": "",
+      "label": "",
+      "description": "Ограничить размер файла, который сервер будет пытаться отправить клиенту, по умолчанию 10 Мбайт.",
+      "default": "10485760"
+    },
+    {
+      "command": "sv_filterban",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает фильтрацию пакетов по IP-режиму. Если отключить, все будут как IP-Banned, но их IP-адреса не будут добавлены в список запрещенных адресов.",
+      "default": "1"
+    },
+    {
+      "command": "sv_friction",
+      "type": "",
+      "label": "",
+      "description": "Он контролирует трение о землю. Он заблокирован на 4 в CS и не может быть изменен.",
+      "default": "4"
+    },
+    {
+      "command": "sv_gravity",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает гравитацию. Чем ниже значение, тем ниже гравитация. Вы продолжаете находиться в воздухе с sv_gravity "0", и не можете прыгать с sv_gravity 12000. При отрицательных значениях, такой же эффект, как и при sv_gravity "0", но он прыгает очень быстро.",
+      "default": "800"
+    },
+    {
+      "command": "sv_instancedbaseline",
+      "type": "",
+      "label": "",
+      "description": "Позволяет серверу создавать и использовать "инстанцированные" базовые линии (для гранат и т.д., которые не имеют хороших базовых линий, поскольку не помещаются в .map файл).",
+      "default": "1"
+    },
+    {
+      "command": "sv_lan",
+      "type": "",
+      "label": "",
+      "description": "Включает режим сервера локальной сети. Только люди из вашей локальной сети могут присоединяться к сети",
+      "default": "0"
+    },
+    {
+      "command": "sv_lan_rate",
+      "type": "",
+      "label": "",
+      "description": "Он задает rate для всех клиентов на сервере локальной сети (sv_lan 1), по умолчанию - 20000. Если sv_lan_rate < "1001", то он будет проигнорирован и будет использован параметр "rate" (клиентская сторона).",
+      "default": "20000"
+    },
+    {
+      "command": "sv_log_onefile",
+      "type": "",
+      "label": "",
+      "description": "Он определяет, будет ли создан один файл журнала (всего) или один файл журнала для каждого изменения карты, и как это происходит в настоящее время. По умолчанию используется текущее поведение (по одному для каждого изменения карты).",
+      "default": "0"
+    },
+    {
+      "command": "sv_log_singleplayer",
+      "type": "",
+      "label": "",
+      "description": "Если эта опция включена, то для игр с одним игроком будут созданы файлы журнала. Конечно, необходимо включить логирование (log on).",
+      "default": "0"
+    },
+    {
+      "command": "sv_logbans",
+      "type": "",
+      "label": "",
+      "description": "Включает логирование блокировок игроков. По умолчанию установлено значение 0 (выключено).",
+      "default": "0"
+    },
+    {
+      "command": "sv_logblocks",
+      "type": "",
+      "label": "",
+      "description": "Это часть кода, ограничивающая скорость передачи данных запросами Out-Of-Band (т.е. игроки, информация). Он регистрирует, какие IP-адреса были заблокированы этим кодом. См. также max_queries_* cvars.",
+      "default": "0"
+    },
+    {
+      "command": "sv_logrelay",
+      "type": "",
+      "label": "",
+      "description": "Переключение журнала",
+      "default": "0"
+    },
+    {
+      "command": "sv_logsecret",
+      "type": "",
+      "label": "",
+      "description": "Отправляет новый UDP-пакет S2A_LOGSTRING2 на любые объекты UDP-журнала с заданным секретным значением.",
+      "default": "0"
+    },
+    {
+      "command": "sv_maxrate",
+      "type": "",
+      "label": "",
+      "description": "Этот параметр устанавливает максимальное количество байт в секунду, которое сервер может посылать клиенту. 0 = неограниченный. Только для Интернет-игр (sv_lan 0), за исключением случая sv_lan_rate < 1001 в локальной сети (sv_lan 1).",
+      "default": "0"
+    },
+    {
+      "command": "sv_maxspeed",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает максимальную скорость. В CS он ничего не меняется после "260", из-за скорости оружия (быстрее всего со скаутом, то есть 260).",
+      "default": "320"
+    },
+    {
+      "command": "sv_maxunlag",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает максимальное количество секунд, которое сетевой код компенсирует чей-либо ping (sv_unlag должен быть включен). По умолчанию неткод компенсирует 500 мс.",
+      "default": "0.500"
+    },
+    {
+      "command": "sv_maxupdaterate",
+      "type": "",
+      "label": "",
+      "description": "Это максимальное количество обновлений в секунду, которое сервер может отправить клиенту (см. cl_updaterate).",
+      "default": "30"
+    },
+    {
+      "command": "sv_maxvelocity",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает максимальную скорость любого движущегося объекта.",
+      "default": "2000"
+    },
+    {
+      "command": "sv_minrate",
+      "type": "",
+      "label": "",
+      "description": "Здесь устанавливается минимальное количество байт в секунду, которое сервер может посылать клиенту. 0 = неограниченный. Только для Интернет-игр (sv_lan 0), за исключением случая sv_lan_rate < 1001 в локальной сети (sv_lan 1).",
+      "default": "0"
+    },
+    {
+      "command": "sv_minupdaterate",
+      "type": "",
+      "label": "",
+      "description": "Это минимальное количество обновлений в секунду, которое сервер может отправить клиенту (см. cl_updaterate).",
+      "default": "10"
+    },
+    {
+      "command": "sv_newunit",
+      "type": "",
+      "label": "",
+      "description": "Используется для удаления сохраненных игровых данных предыдущих уровней, чтобы сохранить размер сохраненной игры на как можно более низком уровне. Используется в картах одиночного игрока Half-Life. Нет необходимости изменять этот CVar, создатели карт должны установить его в сущность worldspawn.",
+      "default": "0"
+    },
+    {
+      "command": "sv_outofdatetime",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "1800"
+    },
+    {
+      "command": "sv_password",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает пароль для сервера. Людям, которые хотят подключиться к серверу, нужен пароль.",
+      "default": "0"
+    },
+    {
+      "command": "sv_proxies",
+      "type": "",
+      "label": "",
+      "description": "Это позволит прокси-серверам HLTV подключаться к вашему серверу. Он устанавливает, сколько HLTV прокси-серверов сможет подключаться к вашему серверу. HLTV прокси-серверы занимают серверные слоты, поэтому убедитесь, что вы учли это, прежде чем включать эту функцию.",
+      "default": "1"
+    },
+    {
+      "command": "sv_rcon_banpenalty",
+      "type": "",
+      "label": "",
+      "description": "Количество минут для запрета пользователей, не прошедших rcon-аутентификацию. (0=постоянный)",
+      "default": "0"
+    },
+    {
+      "command": "sv_rcon_maxfailures",
+      "type": "",
+      "label": "",
+      "description": "Максимальное количество раз, когда пользователь может не пройти rcon-аутентификацию перед тем, как будет заблокирован. Он похож на sv_rcon_minfailures, за исключением того, что этот параметр не зависит от времени sv_rcon_minfailuretime.",
+      "default": "10"
+    },
+    {
+      "command": "sv_rcon_minfailures",
+      "type": "",
+      "label": "",
+      "description": "Количество раз, когда пользователь может не пройти rcon-аутентификацию во время sv_rcon_minfailuretime перед запретом.",
+      "default": "5"
+    },
+    {
+      "command": "sv_rcon_minfailuretime",
+      "type": "",
+      "label": "",
+      "description": "Время (в секундах) неудачных попыток ввода rcon должно быть в интервале времени, в течение которого будет применяться блокировка..",
+      "default": "30"
+    },
+    {
+      "command": "sv_restart",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает время в секундах до перезапуска сервера. Это приведет к сбросу всех ошибок, результатов, оружия и денег к дефолту. Используйте это для координации клановых матчей. Это то же самое, что и sv_restartround.",
+      "default": "0"
+    },
+    {
+      "command": "sv_restartround",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает время в секундах до перезапуска сервера. Это приведет к сбросу всех ошибок, результатов, оружия и денег к дефолту. Используйте это для координации клановых матчей. Это то же самое, что и sv_restart.",
+      "default": "0"
+    },
+    {
+      "command": "sv_send_logos",
+      "type": "",
+      "label": "",
+      "description": "Позволяет серверу отправлять клиентам пользовательские спреи. Для работы sv_send_logos 1 требуется sv_allowdownload 1.",
+      "default": "1"
+    },
+    {
+      "command": "sv_send_resources",
+      "type": "",
+      "label": "",
+      "description": "Этот квар контролирует, передаются ли ресурсы клиентам.",
+      "default": "1"
+    },
+    {
+      "command": "sv_skycolor_b",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает значение синего цвета неба.",
+      "default": "129"
+    },
+    {
+      "command": "sv_skycolor_g",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает значение зеленного цвета неба.",
+      "default": "197"
+    },
+    {
+      "command": "sv_skycolor_r",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает значение красного цвета неба.",
+      "default": "197"
+    },
+    {
+      "command": "sv_skyname",
+      "type": "",
+      "label": "",
+      "description": "Он задает имя неба, которое должно использоваться для текущей карты (игроки должны повторно подключиться, если вы измените его через этот квар, чтобы увидеть новое небо). Создатели карт могут задать для своей карты определенное небо, и он автоматически установит этот квар. Если ничего не установлено, небо будет небо по умолчанию: desert.",
+      "default": "0"
+    },
+    {
+      "command": "sv_skyvec_x",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает ориентацию по оси x неба.",
+      "default": "0.366"
+    },
+    {
+      "command": "sv_skyvec_y",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает ориентацию по оси y неба.",
+      "default": "0.341"
+    },
+    {
+      "command": "sv_skyvec_z",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает ориентацию по оси z неба.",
+      "default": -"0.866"
+    },
+    {
+      "command": "sv_spectatormaxspeed",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает максимальную скорость, с которой зритель может двигаться.",
+      "default": "500"
+    },
+    {
+      "command": "sv_stats",
+      "type": "",
+      "label": "",
+      "description": "Определяет, нужно ли собирать статистику загрузки процессора сервера или нет. Используйте команду " stats " для просмотра собранных данных об загрузке процессора.",
+      "default": "1"
+    },
+    {
+      "command": "sv_stepsize",
+      "type": "",
+      "label": "",
+      "description": "Используется для определения максимальной высоты подъема, на которую можно подняться, не прыгая. При установке на большое число можно ходить по очень высоким объектам. При установке на небольшое число вы не сможете подняться на самый маленький шаг.",
+      "default": "18"
+    },
+    {
+      "command": "sv_stopspeed",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает минимальную скорость остановки на земле. В режиме Half-Life и других режимах значение по умолчанию равно 100. Но в CS он заблокирован на "75", и если его изменить, то он снова вернется на 75.",
+      "default": "75"
+    },
+    {
+      "command": "sv_timeout",
+      "type": "",
+      "label": "",
+      "description": "Контролирует, через какое время сервер отключит клиента, который перестал отвечать (он может быть только AFK).",
+      "default": "60"
+    },
+    {
+      "command": "sv_unlag",
+      "type": "",
+      "label": "",
+      "description": "Это позволяет клиентам использовать компенсацию задержек. Оставь это включенным.",
+      "default": "1"
+    },
+    {
+      "command": "sv_unlagpush",
+      "type": "",
+      "label": "",
+      "description": "Включить компенсацию задержек срабатывания сервера",
+      "default": "0"
+    },
+    {
+      "command": "sv_unlagsamples",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает количество пакетов, которое будет усреднено, чтобы найти ping для компенсации (sv_unlag должен быть включен). Примеры: sv_unlagsamples 1 Сервер вычислит ping из последнего примера. (по умолчанию) sv_unlagsamples 2 Сервер вычислит ping из среднего значения двух последних примеров.",
+      "default": "1"
+    },
+    {
+      "command": "sv_uploadmax",
+      "type": "",
+      "label": "",
+      "description": "Он ограничивает максимальный размер (в мегабайтах), который клиент может использовать для пользовательских ресурсов (т.е. распылительные наклейки).",
+      "default": "0.5"
+    },
+    {
+      "command": "sv_version",
+      "type": "",
+      "label": "",
+      "description": "Это серверная версия Infos. Это числа, которые появляются при вводе "version". Например, здесь:"1.1"."1.2".0/"2.0"."0.0" должна быть версия игры/модовая версия. Но мы все знаем, что CS - это версия "1.6", но она показывает "1.1"."2.2".5/"2.0"."0.0".0. На других модификациях он также показывает "1.1"."2.2".5/"2.0"."0.0" или "1.1"."2.0"/"2.0"."0.0", за исключением CZ, где "1.0"."0.2"/"2.0"."0.0".47 - версия протокола.3647 - версия сборки.",
+      "default": "112748.828"
+    },
+    {
+      "command": "sv_visiblemaxplayers",
+      "type": "",
+      "label": "",
+      "description": "Сколько слотов сервера видно из браузера сервера. Используется для хранения слотов для администраторов. Они должны использовать команду "Connect" для подключения к скрытому слоту. Но без модуля/плагина любой желающий может подключиться к скрытому слоту.",
+      "default": -1
+    },
+    {
+      "command": "sv_voiceenable",
+      "type": "",
+      "label": "",
+      "description": "Включает голосовую связь.",
+      "default": "1"
+    },
+    {
+      "command": "sv_wateraccelerate",
+      "type": "",
+      "label": "",
+      "description": "Установленное ускорение в воде",
+      "default": "10"
+    },
+    {
+      "command": "sv_wateramp",
+      "type": "",
+      "label": "",
+      "description": "Он усиливает волнения воды (разумеется, на картах с водой). Автоматическая настройка gl_wateramp (то же самое, но со стороны клиента) на всех клиентах.",
+      "default": "0"
+    },
+    {
+      "command": "sv_waterfriction",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает силу течения под водой",
+      "default": "1"
+    },
+    {
+      "command": "sv_zmax",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает размер Z-буфера. Это максимальное видимое расстояние. Создатели карт могут задавать желаемое значение на своей карте (сущностью worldspawn), и он автоматически изменяет этот квар при загрузке карты. Он изменяет значение gl_zmax любого клиента, который подключается к серверу. VALVe добавил этот квар, потому что с gl_zmax 0 вы могли видеть сквозь стены (в рендеререре D3D), поэтому клиент вынужден использовать значение сервера и не может изменить gl_zmax. Это может быть использовано только в мультиплеере на выделенных серверах (он работает только в одиночной игре для Listen серверов).",
+      "default": "8192"
+    },
+    {
+      "command": "sys_ticrate",
+      "type": "",
+      "label": "",
+      "description": "Эта команда устанавливает максимальное количество кадров в секунду, которое сервер может вычислить.",
+      "default": "100"
+    },
+    {
+      "command": "texgamma",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает интенсивность цвета текстуры.",
+      "default": "2"
+    },
+    {
+      "command": "v_dark",
+      "type": "",
+      "label": "",
+      "description": "При установке этого значения на 1 уровень затемнения экрана становится меньше при первоначальной загрузке.",
+      "default": "0"
+    },
+    {
+      "command": "violence_ablood",
+      "type": "",
+      "label": "",
+      "description": "Включает кровь пришельца.",
+      "default": "1"
+    },
+    {
+      "command": "violence_agibs",
+      "type": "",
+      "label": "",
+      "description": "Включает останки пришельцев.",
+      "default": "1"
+    },
+    {
+      "command": "violence_hblood",
+      "type": "",
+      "label": "",
+      "description": "Включает кровь пришельца",
+      "default": "1"
+    },
+    {
+      "command": "violence_hgibs",
+      "type": "",
+      "label": "",
+      "description": "Включает останки людей.",
+      "default": "1"
+    },
+    {
+      "command": "voice_avggain",
+      "type": "",
+      "label": "",
+      "description": "Усреднение голосовой волны (удаление шума)",
+      "default": "0.300"
+    },
+    {
+      "command": "voice_dsound",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "1"
+    },
+    {
+      "command": "voice_enable",
+      "type": "",
+      "label": "",
+      "description": "Позволяет общаться через микрофон.",
+      "default": "1"
+    },
+    {
+      "command": "voice_fadeouttime",
+      "type": "",
+      "label": "",
+      "description": "Количество секунд, в течение которых голос игрока исчезает после того, как он что-то говорит в микрофоне. Это значит, что переход к тому моменту, когда они перестанут говорить, звучит более плавно. Установите значение "0", если вы хотите воспроизводить звуки с помощью HLSS/HLDJ, так как это приводит к исчезновению музыки и приглушению звука после непрерывного воспроизведения композиции.",
+      "default": "0.100"
+    },
+    {
+      "command": "voice_forcemicrecord",
+      "type": "",
+      "label": "",
+      "description": "Устанавливает записывающее устройство на Wave Out Mix, а не на Line 1/Mic. Движок HL пытается убедиться, что настройки управления микшером установлены правильно, когда игра работает, но не все звуковые карты работают одинаково, особенно звуковые карты очень высокого класса, такие как Audigy 2ZS pro карты. Если у вас возникли проблемы с микрофоном, не работающим после начала игры, попробуйте установить значение 0.",
+      "default": "1"
+    },
+    {
+      "command": "voice_inputfromfile",
+      "type": "",
+      "label": "",
+      "description": "При установке этого параметра и использовании функции "+voicerecord", вы не будете записывать свой голос, а будете воспроизводить WAV-файл с помощью cstrike/voice_input.wav.",
+      "default": "0"
+    },
+    {
+      "command": "voice_loopback",
+      "type": "",
+      "label": "",
+      "description": "Когда эта функция включена и вы говорите через микрофон, вы можете слышать свой собственный голос, чтобы услышать, как вы говорите.",
+      "default": "0"
+    },
+    {
+      "command": "voice_maxgain",
+      "type": "",
+      "label": "",
+      "description": "Сглаживает голос говорящих",
+      "default": "5"
+    },
+    {
+      "command": "voice_overdrive",
+      "type": "",
+      "label": "",
+      "description": "Уровень приглушения сторонних звуков, вроде стрельбы или шагов, когда кто-то начинает говорить",
+      "default": "2"
+    },
+    {
+      "command": "voice_overdrivefadetime",
+      "type": "",
+      "label": "",
+      "description": "Определяет, сколько времени в секундах станет работать эффект затухания окружающих звуков;",
+      "default": "0.400"
+    },
+    {
+      "command": "voice_profile",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "voice_recordtofile",
+      "type": "",
+      "label": "",
+      "description": "Записывает ваш голос в файл, если установлено значение "1", и вы говорите по микрофону. Два файла: voice_decompress.wav (не содержит фактического звука) и voice_micdata.wav (вы говорите).",
+      "default": "0"
+    },
+    {
+      "command": "voice_scale",
+      "type": "",
+      "label": "",
+      "description": "Этот параметр задает громкость голосов других игроков, когда они говорят (также ваш голос, если вы используете функцию voice_loopback).",
+      "default": "0.750"
+    },
+    {
+      "command": "voice_serverdebug",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "voice_showchannels",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    },
+    {
+      "command": "voice_showincoming",
+      "type": "",
+      "label": "",
+      "description": "",
+      "default": "0"
+    }
+	]
+}
